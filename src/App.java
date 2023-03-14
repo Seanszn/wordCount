@@ -15,7 +15,7 @@ public class App {
         while(!word.equals("-1")){
         line = input.readLine();
         int count = 0;
-        while(!line.equals(null)){
+        while(line != null){
             if(line.contains(word)){
                 count++;
                 line = input.readLine();
